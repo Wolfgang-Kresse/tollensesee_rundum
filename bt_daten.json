@@ -1,0 +1,2120 @@
+var touripunkte = {
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Schloss Hohenzieritz",
+		"text": "Nationalparkamt",
+		"link": "<a href='https://www.mv-schloesser.de/de/location/schloss-hohenzieritz/'>Schloss</a>",
+		"Actionbound": "",
+		"copyright": "T. Allrich",
+		"file": "hohenzieritz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.102259,
+		  53.443810 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Park Hohenzieritz",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "park_hohenzieritz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.104249,
+		  53.444360 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Burg und Hexenkeller Penzlin",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_penzlin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.088949,
+		  53.506854 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Jagdschloss Prillwitz",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "jagdschloss_prillwitz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.140672,
+		  53.453271 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Park Prillwitz",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "park_prillwitz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.140243,
+		  53.452841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Grabpyramide",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "grabpyramide" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.106761,
+		  53.487774 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "H&#252gelgr&#228ber",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.156200,
+		  53.444111 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kloster Broda",
+		"text": "Heute: Amtshaus Broda (G&#228stehaus der Hochschule)",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "kloster_broda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.239404,
+		  53.550455 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Belvedere",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "belvedere" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.235701,
+		  53.547704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Johanniter-Komturei Klein Nemerow",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "johanniter_komturei_klein_nemerow" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.214240,
+		  53.489920
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Stadtmauer Neubrandenburg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "stadtmauer" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.258646,
+		  53.559825 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Marien- oder Konzertkirche Neubrandenburg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "marienkirche" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.260420,
+		  53.555724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "St. Johannis",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "johanniskirche" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.260651,
+		  53.559654 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Dorfkirche",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "lapitz_kirche" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.089465,
+		  53.546647		  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Stadtkirche",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard_kirche" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.310335,
+		  53.496065		  
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Kapelle St. Georg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "sankt_georg_kirche" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.247220,
+		  53.557639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Aussichtsturm Behmsh&#246he",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "behmshoehe" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.243245,
+		  53.528038
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Treptower Tor",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "treptower_tor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.254589,
+		  53.556986
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Friedl&#228nder Tor",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "friedlaender_tor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.265439,
+		  53.559044
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Neues Tor",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "neues_tor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.265821,
+		  53.556211
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Stargarder Tor",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "stargarder_tor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.261341,
+		  53.554153
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Fischerinsel",
+		"text": "&#196ltestes erhaltenes Haus der Stadt Neubrandenburg",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.164494,
+		  53.479025
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "H&#252gelgrab 'Wendenk&#246nig'",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.149108,
+		  53.475597
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Slawischer Burgwall",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.092317,
+		  53.491916
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Walter-Gotsmann-Stein",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.140512,
+		  53.427002
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Burg Stargard",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.304864,
+		  53.490228
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Jahnkapelle",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "jahnkapelle" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fd6",
+        "coordinates": [
+          13.029050,
+		  53.448119
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Gutshaus Gro&#223 Vielen",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "gross_vielen" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#3af",
+        "coordinates": [
+          13.033720,
+		  53.480402
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Gutshaus Peckatel",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "peckatel" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.051935,
+		  53.449717
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Waldbaulager",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "waldbaulager" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.24808,
+		  53.50467 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wohnhaus",
+		"text": "von Isodor Heine",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "heine" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.254221,
+		  53.558273 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Informationsstele &#252ber die Kriegsopfer 1945 in Neubrandenburg",
+		"text": "Ort des Massensuizids Neubrandenburger B&#252rger*innen 1945",
+		"link": "<a href='http://zeitlupe-nb.de/de/ort/lehrpfad-das-kriegsende-1945-neubrandenburg'>Zeitlupe</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/kriegsende45nb'>Actionbound</a>",
+		"copyright": "WK",
+		"file": "seeufer" 
+		      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.248021,
+		  53.548869 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "TVA, Stele 1",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "torpedoversuchsanstalt_stele1" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.255077,
+		  53.538686 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "TVA, Stele 2",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "torpedoversuchsanstalt_stele2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.255277,
+		  53.538586 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Mahn- und Gedenkst&#228tte F&#252nfeichen",
+		"text": "Lehrpfad Friedh&#246fe des Kriegsgefangenenlagers Stalag II A und des sowjetischen Speziallagers Nr. 5",
+		"link": "<a href='http://zeitlupe-nb.de/de/ort/mahn-und-gedenkstaette-neubrandenburg-fuenfeichen'>Zeitlupe</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/nb5eichen'>Actionbound</a>",
+		"copyright": "WK",
+		"file": "fuenfeichen" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.288445,
+		  53.532469
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Lehrpfad: DDR-Staatssicherheit auf dem Lindenberg",
+		"text": "Stasi-Unterlagen-Archiv Neubrandenburg,&#13 Ort der DDR-Staatssicherheit in Neubrandenburg",
+		"link": "<a href='http://zeitlupe-nb.de/de/ort/lehrpfad-ddr-staatssicherheit-auf-dem-lindenberg'>Zeitlupe</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/stasinb'>Actionbound</a>",
+		"copyright": "WK",
+		"file": "lindenberg" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.255940,
+		  53.527792
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Rinker-Werke",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "rinker_werke" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.286173,
+		  53.562726
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Zwangsarbeiterlager",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "zwangsarbeiterlager" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.289856,
+		  53.573022
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Lern- und Gedenkort Alt Rehse",
+		"text": "NS-Musterdorf und historischer Schlosspark",
+		"link": "<a href='http://www.ebb-alt-rehse.de'>Erinnerungs-, Bildungs- und Begegnungsst&#228tte</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/altrehsegesternundheute'>Actionbound</a>",
+		"copyright": "WK",
+		"file": "alt_rehse" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.163732,
+		  53.497791
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Synagogendenkmal",
+		"text": "Beginn des Lehrpfads J&#252disches Leben in Neubrandenburg",
+		"link": "<a href='http://zeitlupe-nb.de/de/ort/lehrpfad-juedisches-leben'>Zeitlupe</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/judennb'>Actionbound</a>",
+		"copyright": "LW",
+		"file": "juedisches_leben_synagoge" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.262288,
+		  53.559910
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Ruineninsel Torpedoversuchsanstalt (TVA)",
+		"text": "Lern- und Gedenkort",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "LW",
+		"file": "text_tva" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.248646,
+		  53.541914
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Torpedo der TVA",
+		"text": "Lern- und Gedenkort",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "LW",
+		"file": "torpedo_tva" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.255966,
+		  53.538618
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Zwangsarbeit in der Nordstadt",
+		"text": "Lern- und Gedenkort",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "LW",
+		"file": "zwangsarbeit_nordstadt" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.275377,
+		  53.570583
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Mahn-und Gedenkst&#228tte F&#252nfeichen / Lehrpfad",
+		"text": "Lern- und Gedenkort",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "LW",
+		"file": "fuenfeichen2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.294240,
+		  53.524900
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "ehem. NS-F&#252hrerschule der Deutschen &#196rzteschaft",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "LW",
+		"file": "alt_rehse2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.166648,
+		  53.495965
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Lehrpfad",
+		"text": "NS-Zwangsarbeit in Neubrandenburg",
+		"link": "<a href='http://zeitlupe-nb.de/de/ort/lehrpfad-zwangsarbeit'>Zeitlupe</a>",
+		"Actionbound": "<a href='https://en.actionbound.com/bound/zwangsarbeitnb'>Actionbound</a>",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.275497,
+		  53.568150
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Lehrpfad: DDR-Staatssicherheit",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#d65",
+        "coordinates": [
+          13.260546,
+		  53.529524
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Hafenstunde",
+		"text": "",
+		"link": "https://hafenstunde.de/startseite/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "hafenstunde" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.256010,
+		  53.538507  
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Augustas",
+		"text": "",
+		"link": "https://www.augustas-nb.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "augustas" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.249775,
+		  53.533109 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Badehaus",
+		"text": "",
+		"link": "https://www.badehaus-am-see.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "badehaus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.251437,
+		  53.547069 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wichmann",
+		"text": "",
+		"link": "https://www.wichmanns-restaurant.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "wichmann" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.251111,
+		  53.552933
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Brauhaus",
+		"text": "",
+		"link": "https://www.wallensteinkeller.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "brauhaus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.245965,
+		  53.558764
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Hotel Sankt Georg",
+		"text": "",
+		"link": "https://www.hotel-sankt-georg.com/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "sankt_georg" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.246432,
+		  53.557621
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Herr Gr&#252nfink",
+		"text": "",
+		"link": "https://www.herrgruenfink.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "herr_gruenfink" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.255087,
+		  53.559702
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Last Orders",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "last_orders" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.256300,
+		  53.561435
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "G&#252terbahnhof",
+		"text": "",
+		"link": "https://www.g&#252terbahnhof.de/home/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "gueterbahnhof" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265641,
+		  53.561061
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Konsulat",
+		"text": "",
+		"link": "http://www.konsulat-nb.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "konsulat" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.253176,
+		  53.557343
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Oliva",
+		"text": "",
+		"link": "https://oliva-neubrandenburg.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "oliva" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.253673,
+		  53.557138
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Zollhaus",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "zollhaus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.254553,
+		  53.556900
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Restaurant am Treptower Tor",
+		"text": "",
+		"link": "http://www.restaurant-treptower-tor.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "restaurant_am_treptower_tor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.255340,
+		  53.557317
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Lohm&#252hle",
+		"text": "",
+		"link": "http://www.lohmuehle-gasthaus.de/index.htm",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "lohmuehle" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.261238,
+		  53.553525
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Torcaf&#233",
+		"text": "",
+		"link": "http://www.torcafe-nb.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "torhaus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265658,
+		  53.559024
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Cayenne",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "cayenne" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.261873,
+		  53.558821
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Turmcaf&#233",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "turmcafe" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.260851,
+		  53.557733
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Italienisches Restaurant",
+		"text": "",
+		"link": "https://italy-restaurant.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "italienisches_restaurant" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.260634,
+		  53.557779
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Saray Grill",
+		"text": "",
+		"link": "https://saray-grill.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "saray_grill" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.260663,
+		  53.557008
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Mama's Food",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "mamas_food" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.260902,
+		  53.557017
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Burgerkult",
+		"text": "",
+		"link": "https://www.burgerkult.com/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burgerkult" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.263577,
+		  53.556981
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Boulevard Caf&#233",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "boulevard_cafe" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.263563,
+		  53.557265
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Doki",
+		"text": "",
+		"link": "https://dokirestaurant.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "doki" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265548,
+		  53.557014
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Uns Eck",
+		"text": "",
+		"link": "http://www.unseck.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "uns_eck" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265787,
+		  53.557011
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wiekhaus 45",
+		"text": "",
+		"link": "https://www.wiekhaus45.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "wiekhaus_45" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265340,
+		  53.554942
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Winehouse",
+		"text": "",
+		"link": "https://www.winehouse-nb.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "winehouse" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265533,
+		  53.555212
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Mudder Schulten Stuben",
+		"text": "",
+		"link": "http://www.mudder-schulten-stuben.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "mudder_schulten" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.265220,
+		  53.555581
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Marathon",
+		"text": "",
+		"link": "https://www.marathon-1992.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "marathon" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.273453,
+		  53.556827
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Laureato",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "laureato" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.256638,
+		  53.536315
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wollenberg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "wollenberg" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.258772,
+		  53.536944
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Heidehof",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "heidehof" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.214502,
+		  53.489122
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Bornm&#252hle",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "bornmuehle" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.196904,
+		  53.475079
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Gatsch Eck",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "gatsch_eck" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.206268,
+		  53.514755
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Alter Bahnhof Penzlin",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "alter_bahnhof_penzlin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.083582,
+		  53.507041
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Gastst&#228tte",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "lapitz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.089760,
+		  53.544608
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Strandbad Broda",
+		"text": "Sommerbar, SUP-Verleih, Beach-Volleyball",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "strandbad_broda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.242115,
+		  53.550241 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Augustabad",
+		"text": "Strandbad, FKK-Bereich",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "augustabad" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.250081,
+		  53.533752
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Bootsverleih",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "bootsverleih" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.247094,
+		  53.549514
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Fahrgastschiffe",
+		"text": "Mudder Schulten und Rethra",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "fahrgastschiffe" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.250415,
+		  53.545239
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wandertreff",
+		"text": "Startpunkt der Gr&#252nen Runde (40 km)",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "wandertreff" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.243732,
+		  53.549997
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Seeweide",
+		"text": "Naturcampingplatz bei Penzlin",
+		"link": "https://www.seeweide.de",
+		"Actionbound": "",
+		"copyright": "Seeweide | Naturcamping Penzlin",
+		"file": "seeweide" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.094513,
+		  53.487453
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Oberbach",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "oberbach" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.251424,
+		  53.555310
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Reuterdenkmal",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "reuterdenkmal" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.261785,
+		  53.560569
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Stadthalle",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "stadthalle" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.253331,
+		  53.548785
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Regionalmuseum",
+		"text": "",
+		"link": "https://www.museum-neubrandenburg.de/",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "regionalmuseum" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.260967,
+		  53.560053
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Bibliothek",
+		"text": "",
+		"link": "https://www.bibliothek-nb.de",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "bibliothek" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.260852,
+		  53.558007
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Kunstsammlung",
+		"text": "",
+		"link": "https://www.kunstsammlung-neubrandenburg.de",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "kunstsammlung" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.256258,
+		  53.555316
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Touristen-Information",
+		"text": "",
+		"link": "https://www.vznb.de",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "touristinfo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#058",
+        "coordinates": [
+          13.260168,
+		  53.557739
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Hotel Burg Stargard",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard_hotel" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.309946,
+		  53.495214 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Jugendherberge",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard_jugendherberge" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#e21",
+        "coordinates": [
+          13.320029,
+		  53.494750
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Slawendorf",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "passentin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.121804,
+		  53.543484
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Sommerrodelbahn",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard_sommerrodelbahn" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.323822,
+		  53.490563
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Bikepark",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "bikepark" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.297433,
+		  53.536081
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Chimborazo",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "chimborazo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.227465,
+		  53.508288
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Findling",
+		"text": "Landvermessers Ruh",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.197645,
+		  53.507176 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Aussichtspunkt",
+		"text": "Eugen Geinitz Sicht",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#7a3",
+        "coordinates": [
+          13.170846,
+		  53.438121
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Bahnhof Neubrandenburg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "bahnhof_neubrandenburg" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ee3",
+        "coordinates": [
+          13.261519,
+		  53.561415 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Busbahnhof Neubrandenburg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "busbahnhof" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ee3",
+        "coordinates": [
+          13.258645,
+		  53.561339 
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Wiekhaus der RAA M-V",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "wiekhaus_raa" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ee3",
+        "coordinates": [
+          13.259961,
+		  53.560194
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Rathaus Neubrandenburg",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "rathaus_neubrandenburg" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ee3",
+        "coordinates": [
+          13.267332,
+		  53.557160
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Schauspielhaus",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "schauspielhaus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#707",
+        "coordinates": [
+          13.262929,
+		  53.555086
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Marie-Hager-Haus",
+		"text": "",
+		"link": "",
+		"Actionbound": "",
+		"copyright": "WK",
+		"file": "burg_stargard_marie_hager_haus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#707",
+        "coordinates": [
+          13.321827,
+		  53.494182
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "ZINNOBER Kulturkreis Zachow",
+		"text": "",
+		"link": "https://www.zinnober-zachow.de/Impressum/index.php/",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#707",
+        "coordinates": [
+          13.218513,
+		  53.448892
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "place": "Limousinhof Zippelow",
+		"text": "",
+		"link": "https://www.limousinhof-zippelow.de/hofladen/",
+		"Actionbound": "",
+		"copyright": "",
+		"file": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ffa",
+        "coordinates": [
+          13.128174,
+		  53.460414
+        ]
+      }
+    }
+  ]
+};
