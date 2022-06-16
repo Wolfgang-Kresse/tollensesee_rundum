@@ -83,7 +83,7 @@ function onEachFeature(feature, layer) {
 		
 		var imgname = feature.properties.file;
 				
-		html_content += "<a href='./"  + imgname + ".jpg' target='_blank'><img src='./" + imgname + ".jpg' width=200px onerror='this.src=\"./0.jpg\"; this.style.display = \"none\";'/></a>";
+		html_content += "<a href='./pictures/"  + imgname + ".jpg' target='_blank'><img src='./pictures/" + imgname + ".jpg' width=200px onerror='this.src=\"./pictures/0.jpg\"; this.style.display = \"none\";'/></a>";
 
 		layer.bindPopup(L.popup({maxWidth:200}).setContent(html_content, { autoPan: true}));
 		layer.bindLabel(feature.properties.place, { className: "myLabel", noHide: false});
